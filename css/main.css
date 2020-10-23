@@ -1,0 +1,136 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/***GRID***/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 395px;
+}
+
+/***HEADER***/
+h1 {
+    font-size: 30px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: #77a466;
+}
+
+/***nav***/
+nav ul li {
+    color: #77a466;
+    display: inline-block;
+    font-size: 14px;
+    font-style: bold;
+    padding: 45px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***img***/
+header img#hero-img {
+    border: 3px solid #77a466;
+    max-width: 1170px;
+    margin:auto;
+}
+
+/***header h2 and p***/
+header h2  {
+    color: #77a466;
+    font-size: 18px;
+    padding: 31px 0;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size:16px;
+    line-height:25px;
+    padding-right: 41px;
+}
+
+/***MAIN***/
+main .full-width {
+    border-bottom: 2px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+}
+
+main h3 {
+    font-size: 12px;
+    line-height: 25px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+#specials h3 {
+    padding-left: 0;
+}
+
+main ul li {
+    color: #77a466;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    text-indent: -30px;
+}
+
+#reviews h3 {
+    padding-left: 31px;
+}
+
+main #reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+#reviews p {
+    font-size:16px;
+    line-height:21px;
+    text-align: left;
+    padding-left: 31px;
+    padding-right: 40px;
+    padding-bottom: 23px;
+}
+
+#contact h3 {
+    padding-left: 29px;
+}
+
+#contact address {
+    font-size:16px;
+    font-style: normal;
+    line-height:24px;
+    padding-left: 29px;
+    text-align: left;
+}
+
+/***footer***/
+footer  h2 {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    padding-top: 35px;
+    text-transform: lowercase;
+}
